@@ -21,9 +21,10 @@ news_researcher=Agent(
     verbose=True,
     memory=True,
     backstory=(
-        "Driven by curiosity, you're at the forefront of"
-        "innovation, eager to explore and share knowledge that could change"
-        "the world."
+      """You are an experienced research specialist with a talent for
+        finding relevant information from various sources. You excel at
+        organizing information in a clear and structured manner, making
+        complex topics accessible to others"""
     ),
     tools=[tool],
     llm=llm,
@@ -39,9 +40,10 @@ news_writer = Agent(
   verbose=True,
   memory=True,
   backstory=(
-    "With a flair for simplifying complex topics, you craft"
-    "engaging narratives that captivate and educate, bringing new"
-    "discoveries to light in an accessible manner."
+    """You are a skilled News writer with expertise in
+      technical writing. You have a talent for identifying patterns
+      and extracting meaningful insights from research data, then
+      communicating those insights effectively through well-crafted reports."""
   ),
   tools=[tool],
   llm=llm,
