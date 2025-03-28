@@ -1,0 +1,6 @@
+multimodal/
+.env
+__pycache__/
+.files/
+.chainlit/
+chainlit.md
